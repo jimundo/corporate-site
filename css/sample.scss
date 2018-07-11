@@ -205,7 +205,6 @@ header{
     text-align: left;
     height: 420px;
     padding: 0;
-
     img{
       margin-top: 180px;
       margin-left: 70px;
@@ -474,25 +473,12 @@ div{
   background-image: url("../images/news/sub_cover.jpg") ;
   background-size:cover;
   padding: 40px 0;
-}
-   @media screen and (-webkit-min-device-pixel-ratio:2),
-                     (min-resolution: 2dppx){
-
-   background-image: url("../images/news/sub_cover@2x.jpg");
-   }
-   
-    @media (min-width: 550px) {
-    #sub_cover {
-      padding: 80px;
-    }
-
-}
-   h2{
+  
+     h2{
      text-align: center;
      color: white;
      font-size: 1.6rem;
      font-weight: bold;
-     margin: 0 ;
      letter-spacing: 0.2rem;
    }
 
@@ -511,6 +497,22 @@ div{
   padding: 0 20px;
   box-sizing: border-box;
 }
+  
+  
+}
+   @media screen and (-webkit-min-device-pixel-ratio:2),
+                     (min-resolution: 2dppx){
+
+   background-image: url("../images/news/sub_cover@2x.jpg");
+   }
+   
+    @media (min-width: 550px) {
+    #sub_cover {
+      padding: 80px;
+    }
+
+}
+
 
 #contents{
   padding-top: 20px;
@@ -525,6 +527,12 @@ div{
   .company_title{
     margin-bottom: 0px;
   }
+}
+       @media (min-width: 550px) {
+        #main h2{
+          font-size: 2rem;
+          padding-bottom: 20px;
+        }
 }
 
 #main .news_li {
